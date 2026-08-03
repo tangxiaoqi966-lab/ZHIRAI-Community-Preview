@@ -1,6 +1,6 @@
 # ZHIRAI Roadmap
 
-## 当前阶段
+## 当前阶段 / Current Stage
 
 - [x] 基础项目结构
 - [x] 登录与控制台基础界面
@@ -13,7 +13,20 @@
 - [x] 按步骤启动 / 静默模型的基础能力
 - [x] 控制台基础流式展示
 
-## 正在推进
+English summary:
+
+- [x] Core project structure
+- [x] Base login and console UI
+- [x] Primary agent chat entry
+- [x] Outline generation main flow
+- [x] Project creation after user confirmation
+- [x] Core short-drama pipeline skeleton
+- [x] Model configuration page and model market entry
+- [x] Runtime status query
+- [x] Step-based model start / silent state basics
+- [x] Base streaming display in the console
+
+## 正在推进 / In Progress
 
 - [ ] 大纲确认态与正式生产态的交互收紧
 - [ ] 本地模型运行时总控完善
@@ -21,7 +34,7 @@
 - [ ] GitHub 社区展示版整理
 - [ ] 非商用许可证与公开边界文档完善
 
-## 下一阶段
+## 下一阶段 / Next Stage
 
 - [ ] 本地 LLM / IMAGE / VIDEO / TTS 的统一启停
 - [ ] 视频模型音频能力真实检测
@@ -31,7 +44,7 @@
 - [ ] 本地部署脚本自动化
 - [ ] 宿主机配置检测与模型推荐
 
-## 后续计划
+## 后续计划 / Future Plan
 
 - [ ] 高质量口型同步
 - [ ] 超分 / 4K 输出
@@ -40,10 +53,18 @@
 - [ ] 商业版控制台
 - [ ] 用户权益与计费系统
 
-## 公开版不会直接包含的内容
+## 公开版不会直接包含的内容 / Not Included in the Public Preview
 
 - 商业计费能力
 - 云端 GPU 调度
 - 完整成本控制策略
 - 完整私有 Prompt
 - 未公开核心流程
+
+English summary:
+
+- Commercial billing capabilities
+- Cloud GPU orchestration
+- Full cost-control strategies
+- Full private prompts
+- Unpublished core workflows
