@@ -2,90 +2,52 @@
 
 by `ZHIRAI`
 
-本仓库是 `AI Short Drama Studio` 在 `ZHIRAI` 品牌下的公开展示版，不是完整版本。
+## 中文
 
-This repository is the public preview edition of `AI Short Drama Studio` under the `ZHIRAI` brand, not the full internal version.
+本仓库是 `AI Short Drama Studio` 在 `ZHIRAI` 品牌下的 Community Preview 公开仓库。
 
-## 公开目的 / Public Purpose
+它主要用于展示项目方向、记录开发进展、获取社区反馈，以及与开发者和创作者建立交流。
 
-- 展示项目方向
-- 获取社区反馈
-- 记录开发进展
-- 吸引潜在合作开发者
-
-English summary:
-
-- Show the direction of the project
-- Gather community feedback
-- Record development progress
-- Attract potential collaborators
-
-## 默认保留内容 / Reserved by Default
-
-以下内容默认保留，不视为公开授权：
-
-The following items are reserved by default and are not considered publicly licensed:
-
-- 完整商业版流程
-- 未公开核心工作流
-- 私有 Prompt 完整版
-- 商业化功能
-- 云端调度与成本控制
-- 私有部署脚本
-- 敏感配置、密钥、环境变量
-- 未公开的重要实现细节
-
-## 品牌与署名 / Brand and Attribution
+### 品牌与署名
 
 `ZHIRAI` 名称、品牌、标识及相关识别元素归 `ZHIRAI` 所有。
 
+未经明确书面授权，你不能冒用 `ZHIRAI` 品牌，也不能将你的项目、服务或分支伪装为官方版本。
+
+### 非商用要求
+
+本仓库公开内容仅允许用于学习、研究、测试、非商用修改与非商用修复。
+
+不允许将本仓库内容直接用于商业销售、商业部署、收费托管、付费二开服务，或与任何收费产品直接打包销售。
+
+### 修改与传播
+
+如果你基于公开内容进行修改或再分发，你必须保留原始版权与来源说明，并清楚标注你做过的改动。
+
+在使用、修改或传播前，请同时阅读本仓库中的 [LICENSE](LICENSE)。
+
+---
+
+## English
+
+This repository is the Community Preview edition of `AI Short Drama Studio` under the `ZHIRAI` brand.
+
+Its purpose is to present the direction of the project, share development progress, collect community feedback, and connect with developers and creators.
+
+### Brand and Attribution
+
 The name `ZHIRAI`, its brand, logos, and related identity elements belong to `ZHIRAI`.
 
-除非获得明确书面授权，你不能：
+Without explicit written permission, you may not present your fork, service, or derivative work as an official `ZHIRAI` release.
 
-Without explicit written permission, you may not:
+### Non-Commercial Use
 
-- 冒用 ZHIRAI 品牌
-- 伪装成官方版本
-- 暗示 ZHIRAI 为你的服务背书
+The public content in this repository may only be used for learning, research, testing, non-commercial modification, and non-commercial fixes.
 
-## 非商用要求 / Non-Commercial Requirement
+You may not use this repository directly for commercial sales, commercial deployment, paid hosting, paid customization services, or bundling with paid products.
 
-公开版仅允许用于：
+### Modification and Redistribution
 
-The public preview may only be used for:
+If you modify or redistribute any public content from this repository, you must keep the original copyright and attribution notices and clearly mark your changes.
 
-- 学习
-- 研究
-- 测试
-- 非商用修改
-- 非商用修复
-
-不允许用于：
-
-It may not be used for:
-
-- 商业销售
-- 商业部署
-- 商业代交付
-- SaaS 收费托管
-- 付费二开服务
-- 与任何收费产品直接打包销售
-
-## 衍生版本要求 / Requirements for Derivatives
-
-如果你修改了公开版内容，你必须：
-
-If you modify any public-preview content, you must:
-
-- 保留原始版权与来源说明
-- 明确标注你做过修改
-- 不得删除非商用限制
-- 不得将其转为商业用途
-
-## 最终解释方向 / Interpretation Priority
-
-若公开版说明、仓库文档、第三方许可证条款之间存在理解冲突，
-应优先按照“不得损害 ZHIRAI 的品牌、署名、未公开核心资产和商业化权益”的方向理解。
-
-If there is any interpretation conflict between this public notice, repository documents, and third-party license terms, they should be interpreted in the direction that does not harm `ZHIRAI`'s brand, attribution, unpublished core assets, or future commercial rights.
+Before using, modifying, or redistributing any content, please also read the repository [LICENSE](LICENSE).

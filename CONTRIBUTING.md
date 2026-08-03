@@ -2,97 +2,80 @@
 
 by `ZHIRAI`
 
-感谢你关注 `ZHIRAI`。
+## 中文
 
-Thank you for your interest in `ZHIRAI`.
+感谢你关注 `AI Short Drama Studio`。
 
-当前公开仓库定位为社区展示版，因此欢迎围绕公开部分协作，但不代表开放全部核心实现。
+这个仓库目前是一个持续开发中的 Community Preview。它更适合用来交流方向、记录进展、收集反馈，以及一起把公开部分打磨得更好。
 
-This public repository is positioned as a community preview. Contributions around the public-facing scope are welcome, but that does not mean the full core implementation is open.
+如果你愿意提建议、报 Bug、优化体验、补文档，或者参与公开部分的代码改进，都非常欢迎。
 
-这个项目目前还在持续开发中。如果你愿意提供建议、指出问题、分享思路，或者帮助改进公开部分的实现，我都非常欢迎。
-
-This project is still under active development. If you would like to share suggestions, point out problems, discuss ideas, or help improve the public part of the implementation, you are very welcome.
-
-如果你擅长下面这些方向，也很适合参与：
-
-If you are strong in any of the areas below, you are especially welcome to join the discussion:
-
-- 前端交互体验优化
-- 后端工程结构整理
-- AI 工作流设计
-- 模型接入与适配建议
-- 文档完善
-- Bug 排查与稳定性修复
-
-## 欢迎提交的内容 / What You Can Contribute
+### 欢迎贡献的方向
 
 - Bug 反馈
 - 文档修正
-- UI/UX 建议
-- 基础功能改进建议
-- 模型适配建议
-- 性能优化建议
+- UI / UX 建议
+- 前端交互优化
+- 后端工程整理建议
+- AI Workflow 设计讨论
+- 模型接入与适配建议
+- 稳定性与性能优化建议
 
-English summary:
+### 提交前请注意
 
-- Bug reports
-- Documentation fixes
-- UI/UX suggestions
-- Basic feature improvements
-- Model integration suggestions
-- Performance improvement ideas
+1. 不要提交任何密钥、密码、令牌或本地敏感配置。
+2. 不要提交 `.env`、模型权重、输出素材、私有日志等内容。
+3. 请保留 `ZHIRAI` 的版权、署名和品牌说明。
+4. 本仓库内容不能用于未获授权的商业用途。
+5. 如果你的修改边界不清楚，先提 Issue 沟通。
 
-## 不接受默认公开授权的内容 / What Is Not Open by Default
+### 提交方式
 
-以下方向即使被讨论，也不代表自动授权公开完整实现：
-
-Even if the following areas are discussed in public, that does not mean the full implementation is automatically open or granted for public use:
-
-- 商业化模块
-- 私有部署脚本
-- 核心 Prompt 完整版
-- 云端调度
-- 成本控制策略
-- 未公开的关键流程实现
-
-## 提交前请注意 / Before You Submit
-
-1. 不要提交任何密钥、密码、令牌或本地敏感配置
-2. 不要提交 `.env`、模型权重、输出素材、私有日志
-3. 不要擅自移除 `ZHIRAI` 的版权、署名、品牌说明
-4. 不要将本项目用于商业用途
-5. 如果你的修改涉及公开边界不清晰的内容，请先提 Issue 沟通
-
-English notes:
-
-1. Do not submit any keys, passwords, tokens, or local sensitive configuration.
-2. Do not submit `.env`, model weights, generated media, or private logs.
-3. Do not remove `ZHIRAI` copyright, attribution, or brand statements.
-4. Do not use this project for commercial purposes.
-5. If your change touches unclear public/private boundaries, please open an issue first.
-
-## 贡献默认前提 / Contribution Assumptions
-
-向本仓库提交公开内容时，你确认：
-
-By submitting public-facing content to this repository, you confirm that:
-
-- 你有权提交这些内容
-- 这些内容不包含你无权公开的第三方资产
-- 你同意其在本仓库现有非商用规则下进行展示和协作
-
-## 联系与反馈 / Contact and Feedback
-
-欢迎通过以下方式参与：
-
-You are welcome to participate through:
+你可以通过这些方式参与：
 
 - 提交 Issue 反馈问题
 - 提交 Feature Request 分享想法
-- 提交 PR 改进公开部分
-- 讨论更好的工作流设计、模型接入方式和交互体验
+- 提交 Pull Request 改进公开部分
+- 参与项目讨论，提出更好的工作流、架构或交互建议
 
-如需讨论合作、授权或更深度的技术对接，请通过仓库 Issue 或你与项目维护者约定的方式联系。
+非常感谢你的关注和支持。每一条反馈、每一个建议、每一次修正，都会帮助项目继续往前推进。
 
-If you would like to discuss collaboration, licensing, or deeper technical cooperation, please reach out through repository issues or other contact channels agreed with the maintainer.
+---
+
+## English
+
+Thank you for your interest in `AI Short Drama Studio`.
+
+This repository is an actively evolving Community Preview. It is mainly a place to share progress, exchange ideas, collect feedback, and improve the public-facing part of the project together.
+
+If you want to suggest improvements, report bugs, improve the experience, refine documentation, or contribute code to the public part of the project, you are very welcome here.
+
+### Good Ways to Contribute
+
+- bug reports
+- documentation improvements
+- UI / UX suggestions
+- frontend interaction improvements
+- backend organization ideas
+- AI workflow discussions
+- model integration suggestions
+- stability and performance improvements
+
+### Before You Submit
+
+1. Do not submit keys, passwords, tokens, or local sensitive configuration.
+2. Do not submit `.env` files, model weights, generated media, or private logs.
+3. Keep `ZHIRAI` copyright, attribution, and branding notices intact.
+4. Do not use the project for unauthorized commercial purposes.
+5. If the contribution boundary is unclear, open an issue first.
+
+### How to Participate
+
+You can participate by:
+
+- opening issues
+- sharing feature requests
+- submitting pull requests for the public-facing parts
+- joining discussions about better workflows, architecture, and interaction design
+
+Thank you for the support. Every useful report, suggestion, and improvement helps move the project forward.

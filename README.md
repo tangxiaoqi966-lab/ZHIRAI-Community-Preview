@@ -2,222 +2,474 @@
   <img src="./icons.svg" alt="ZHIRAI Logo" width="120" />
 </p>
 
-# AI Short Drama Studio
+# ZHIRAI Community Preview
 
-### by ZHIRAI
+## AI Short Drama Studio
 
-Repository: `ZHIRAI-Community-Preview`
+> An AI-powered end-to-end short drama and story-to-video production platform.
+>
+> From an idea to a story. From a story to a world. From a world to a film.
 
-AI Short Drama Studio 是一个面向 AI 短剧生产的创作控制台，目标是把“主题 -> 大纲 -> 项目 -> 剧本 -> 角色 -> 视频 -> 配音 -> 字幕 -> 合成”整条流程串成一个可执行的工作流。
+---
 
-AI Short Drama Studio is a creative control console for AI short-drama production. It is designed to turn the full path from "topic -> outline -> project -> script -> character -> video -> voice -> subtitle -> final composition" into an executable workflow.
+## 中文说明
 
-当前仓库定位为：
+`ZHIRAI Community Preview` 是 `AI Short Drama Studio` 的公开预览仓库。
 
-This repository is positioned as a public-facing preview under the `ZHIRAI` brand:
+这是一个正在积极开发中的 AI 短剧与 AI 故事视频创作平台。
 
-- `Community Preview`
-- `Early Development / WIP`
-- `非商用公开展示版`
+项目的目标，是让用户只需要提供一个简单的主题、创意或故事设定，系统就能够通过 AI 辅助完成从故事构思、剧本创作、角色设计、场景设计、分镜规划，到视频、音频、字幕以及最终成片的完整创作流程。
 
-这不是完整商业版。部分核心流程、关键 Prompt、商业化能力、私有调度逻辑和敏感部署细节仍保留在本地，不在公开范围内。
+这个仓库当前主要用于：
 
-This is not the full commercial edition. Some core workflows, key prompts, commercial capabilities, private orchestration logic, and sensitive deployment details are intentionally kept local and are not part of the public scope.
+- 公开项目开发进度
+- 获取社区反馈
+- 收集 Bug 和功能建议
+- 与 AI 开发者、独立开发者和创作者交流
+- 探索 AI 内容创作的自动化工作流
+- 欢迎开发者参与改进和讨论
 
-## 项目定位 / Project Positioning
+### 项目愿景
 
-- 项目名称：`AI Short Drama Studio`
-- 品牌名称：`ZHIRAI`
-- 仓库名称：`ZHIRAI-Community-Preview`
-
-- Project title: `AI Short Drama Studio`
-- Brand: `ZHIRAI`
-- Repository name: `ZHIRAI-Community-Preview`
-
-## 当前展示 / Preview
-
-![ZHIRAI 登录页](docs/images/zhirai-login.png)
-![ZHIRAI 控制台](docs/images/zhirai-dashboard.png)
-![ZHIRAI 系统设置](docs/images/zhirai-settings.png)
-
-## 核心流程 / Core Workflow
+目前很多 AI 视频工具更偏向于这样一条链路：
 
 ```text
-用户输入主题
-  -> AI 生成故事大纲
+Prompt
+  -> Generate Video
+```
+
+而 `AI Short Drama Studio` 想探索的是一条更完整的 AI 内容生产路径：
+
+```text
+用户创意 / 主题
+  -> AI 故事构思
+  -> 故事大纲
   -> 用户确认
-  -> 自动创建项目
-  -> AI 生成剧本
-  -> 角色设计 / 角色图
-  -> 场景与镜头编排
-  -> 视频生成
-  -> 语音 / 字幕 / BGM
-  -> 合成与增强
-  -> 输出成片
+  -> 创建项目
+  -> AI 剧本创作
+  -> 角色设计
+  -> 角色视觉生成
+  -> 场景设计
+  -> 场景视觉生成
+  -> 分镜规划
+  -> 镜头生成
+  -> AI 视频生成
+  -> AI 配音 / 音频
+  -> 字幕生成
+  -> 视频剪辑与合成
+  -> 画质增强 / 超分辨率
+  -> 最终成片
 ```
+
+我们希望建立的不只是一个“生成视频”的工具，而是一条真正意义上的：
 
 ```text
-User provides a topic
-  -> AI generates a story outline
-  -> User confirms the outline
-  -> Project is created automatically
-  -> AI generates the script
-  -> Character design / character images
-  -> Scene and shot planning
-  -> Video generation
-  -> Voice / subtitles / BGM
-  -> Composition and enhancement
-  -> Final output
+Idea -> Story -> Script -> Character -> Scene -> Shot -> Video -> Audio -> Subtitle -> Final Movie
 ```
 
-## 当前已实现 / Implemented
+AI 内容生产 Pipeline。
 
-- `ZHIRAI` 品牌化控制台、登录页、设置页基础界面
-- 主智能体对话入口
-- 大纲生成与项目创建主链路
-- 短剧 pipeline 主骨架
-- 基础模型配置与模型广场入口
-- 运行时状态查询、启动、停止的基础控制接口
-- 按步骤调度模型的后端基础能力
-- 前端对 pipeline 进度和富消息的基础展示
+### 当前状态
 
-English summary:
+项目目前仍处于早期开发阶段，功能、工作流和系统结构都还在持续完善中。
 
-- `ZHIRAI` branded console, login page, and settings basics
-- Primary agent chat entry
-- Outline generation and project creation main flow
-- Core short-drama pipeline skeleton
-- Model configuration page and model market entry
-- Basic runtime status, start, and stop control endpoints
-- Backend foundations for step-based model orchestration
-- Frontend progress and rich-message display for the pipeline
+它现在不是一个已经完成的商业产品，而是一个正在快速迭代、持续打磨的实验性项目。
 
-## 当前未完成 / 未完全开放 / Not Yet Finished or Not Fully Public
+如果你对这些方向感兴趣，欢迎关注这个项目：
 
-- 完整本地模型自动部署脚本
-- 全量视频模型、语音模型、音乐模型的一键拉起
-- 高级角色一致性与场景一致性
-- 口型同步的完整高质量链路
-- 商业版功能：计费、支付、套餐、用户权益系统
-- 云端 GPU 调度、成本控制、任务优先级、完整失败重试策略
-- 关键 Prompt 完整版本
-- 部分高级工作流编排细节
+- AI 短剧
+- AI 电影
+- AI 故事生成
+- AI 视频生成
+- AI 内容自动化
+- AI Agent
+- AI Workflow
+- 多模型 AI Pipeline
+- AI 视频后期处理
+- 角色一致性
+- 场景一致性
 
-English summary:
+### 项目预览
 
-- Full local model auto-deployment scripts
-- One-click bootstrapping for all video, voice, and music models
-- Advanced character and scene consistency systems
-- Full high-quality lip-sync pipeline
-- Commercial features such as billing, payment, plans, and user rights
-- Cloud GPU orchestration, cost control, job priority, and full retry strategies
-- Full versions of key prompts
-- Some advanced workflow orchestration details
+![登录页](./docs/images/zhirai-login.png)
+![控制台](./docs/images/zhirai-dashboard.png)
+![设置页](./docs/images/zhirai-settings.png)
 
-## 公开范围说明 / Public Scope
+### 核心流程
 
-本仓库用于展示项目方向、产品结构、基础代码组织和当前开发进度。
+#### 1. Idea & Story Generation
 
-This repository is used to present the project direction, product structure, public-facing code organization, and current development progress.
+用户输入一个简单主题、故事创意或基础设定，AI 生成：
 
-公开内容优先包含：
+- 故事概念
+- 故事背景
+- 主要冲突
+- 故事大纲
+- 发展方向
+- 主要角色
 
-Public content mainly includes:
+用户可以在正式创建项目之前，先查看并确认故事大纲。
 
-- 产品思路
-- 工作流结构
-- 基础前后端实现
-- 部分可展示的 AI 生产链路
-- 路线图与开发进度
-- 可公开的界面截图
+#### 2. Project Creation
 
-以下内容默认不在公开授权范围内，或不随公开版完整提供：
+用户确认故事大纲之后，系统创建独立项目，并统一管理整个创作过程：
 
-The following items are not included in the public authorization scope by default, or are intentionally not fully provided in the public edition:
+```text
+Project
+├── Story
+├── Script
+├── Characters
+├── Locations
+├── Scenes
+├── Shots
+├── Images
+├── Videos
+├── Audio
+├── Subtitles
+└── Final Render
+```
 
-- 商业化模块
-- 私有部署脚本
-- 核心 Prompt 完整版
-- 私有调度策略
-- API 密钥、环境变量、敏感配置
-- 未公开的重要流程细节
+#### 3. Script Generation
 
-## 路线图 / Roadmap
+系统根据已确认的故事设定继续生成完整剧本，包括：
 
-详见 [ROADMAP.md](ROADMAP.md)。
+- 剧情结构
+- 场景内容
+- 角色对白
+- 动作描述
+- 镜头信息
+- 情绪与节奏信息
 
-See [ROADMAP.md](ROADMAP.md) for the detailed roadmap.
+#### 4. Character & Scene Design
 
-## 贡献方式 / Contributing
+系统根据剧本生成角色设定和场景设定，并逐步扩展角色视觉、场景视觉以及更稳定的一致性能力。
 
-详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+#### 5. Storyboard & Shot Planning
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution details.
+系统根据剧本拆分镜头，规划镜头类型、镜头时长、动作、机位、场景和表现方式，让视频生成逐步从单条 Prompt 走向更加结构化的流程。
 
-## 欢迎参与 / Welcome
+#### 6. Video, Audio, Subtitle & Final Composition
 
-如果你也对下面这些方向感兴趣，欢迎来一起交流、提建议、提 Issue，或者直接提交改进方案：
+后续流程将围绕视频生成、音频生成、字幕生成、视频合成与增强逐步完善，最终形成完整成片。
 
-If you are interested in any of the directions below, you are very welcome to share ideas, open issues, or submit improvements:
+### 当前仓库定位
 
-- AI 内容创作工作流
-- 短剧生成与视频自动化
-- 多模型调度与本地部署
-- UI / UX 优化
-- 提示词工程与 Agent 设计
-- 性能优化、稳定性修复、体验改进
+这个仓库当前更适合作为：
 
-无论你是开发者、设计师、内容创作者，还是对 AI 工作流感兴趣的朋友，都欢迎参与 `AI Short Drama Studio` 公开部分的建设。
+- 一个持续开发中的项目主页
+- 一个记录迭代过程的公开窗口
+- 一个欢迎建议、测试、Issue 和 PR 的社区入口
 
-Whether you are a developer, designer, content creator, or simply interested in AI workflows, you are welcome to contribute to the public-facing part of AI Short Drama Studio.
+这里最重要的不是“已经全部做完”，而是：
 
-哪怕只是一个小建议、一个交互想法、一个模型适配经验，或者一条 Bug 反馈，对 `ZHIRAI` 都很有价值。
+> 这是一个个人开发者正在认真推进、目标明确、愿意持续打磨、并欢迎社区参与的 AI 项目。
 
-Even a small suggestion, a UX idea, a model integration experience, or a bug report can be genuinely valuable to `ZHIRAI`.
+### 欢迎参与
 
-欢迎提交：
+如果你愿意参与，欢迎通过这些方式帮助项目变得更好：
 
-You are welcome to contribute:
+- 提交 Bug 报告
+- 提出功能建议
+- 分享工作流思路
+- 提出架构建议
+- 参与模型接入讨论
+- 提交 UI / UX 改进建议
+- 提交 PR
 
-- Bug 报告
-- 功能建议
-- 模型适配建议
-- 性能优化建议
-- 文档改进
+即使你不直接写代码，你的反馈、想法和测试结果也同样有价值。
 
-## 许可证与权利 / Licensing and Rights
+### 开发理念
 
-本项目采用“多层授权”方式，且默认保护 `ZHIRAI` 的品牌与后续商业化权益：
+这个项目想探索一种新的 AI 内容创作方式：
 
-This project uses a layered licensing approach and is designed to protect the `ZHIRAI` brand and its future commercial rights by default:
+> AI 不只是一个生成工具，而是整个内容生产流程中的协作伙伴。
 
-- 代码：`PolyForm Noncommercial 1.0.0` 风格的非商用约束
-- 文档与展示素材：`CC BY-NC-SA 4.0` 风格的非商用共享约束
-- 品牌名 `ZHIRAI`、标识、未公开核心内容、商业化扩展能力：`保留全部权利`
+用户负责：
 
-请先阅读：
+```text
+Idea
+Creativity
+Direction
+Decision
+```
 
-Please read the following first:
+AI 负责：
+
+```text
+Planning
+Writing
+Generation
+Automation
+Production
+```
+
+最终通过人与 AI 的协作完成完整内容创作。
+
+### 路线图
+
+更详细的开发计划请查看 [ROADMAP.md](ROADMAP.md)。
+
+### 贡献方式
+
+如果你希望参与这个项目，请查看 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+### 许可证
+
+本仓库当前以非商用 Community Preview 的形式发布。
+
+请在使用、修改或传播之前先阅读：
 
 - [LICENSE](LICENSE)
 - [NOTICE.md](NOTICE.md)
 
-## 重要声明 / Important Notice
+### 关于 ZHIRAI
 
-你可以在非商用前提下学习、研究、修改、修复本项目的公开部分。
+`ZHIRAI` 是一个专注于 AI、软件开发与智能内容创作探索的个人技术品牌。
 
-You may study, research, modify, and fix the public parts of this project for non-commercial purposes.
+`AI Short Drama Studio` 是 `ZHIRAI` 旗下正在持续开发中的实验性项目之一。
 
-你不能：
+### 支持项目
 
-You may not:
+如果你觉得这个项目有价值，欢迎：
 
-- 将本项目或其衍生版本用于商业用途
-- 直接售卖、转售、收费托管、收费部署
-- 以本项目公开内容为基础进行商业交付
-- 冒用 `ZHIRAI` 品牌、名称或标识
-- 主张获得未公开部分的授权
+- Star 这个仓库
+- Watch 项目更新
+- 提交 Issue
+- 分享建议
+- 参与讨论
+- 提交代码
 
-版权所有者与权利主体：`ZHIRAI`
+你的每一个 Star、Issue 和建议，都会帮助这个项目继续往前走。
 
-Copyright owner and rights holder: `ZHIRAI`
+---
+
+## English
+
+`ZHIRAI Community Preview` is the public preview repository for `AI Short Drama Studio`.
+
+This is an actively evolving AI-powered platform for short-drama and story-to-video creation.
+
+The goal is to let a user start with a simple topic, idea, or story setup, and then use AI to assist the full creative path from story ideation, script writing, character design, scene design, and storyboard planning to video, audio, subtitles, and final production.
+
+This repository is mainly used to:
+
+- Share public development progress
+- Collect community feedback
+- Gather bug reports and feature ideas
+- Connect with AI developers, indie builders, and creators
+- Explore automated AI content production workflows
+- Welcome contributors who want to improve the project
+
+### Project Vision
+
+Many AI video tools today still focus on a path like this:
+
+```text
+Prompt
+  -> Generate Video
+```
+
+`AI Short Drama Studio` aims to explore a more complete AI content production path:
+
+```text
+Idea / Topic
+  -> AI story ideation
+  -> Story outline
+  -> User confirmation
+  -> Project creation
+  -> AI script writing
+  -> Character design
+  -> Character visual generation
+  -> Scene design
+  -> Scene visual generation
+  -> Storyboard planning
+  -> Shot generation
+  -> AI video generation
+  -> AI voice / audio
+  -> Subtitle generation
+  -> Editing and composition
+  -> Enhancement / upscaling
+  -> Final output
+```
+
+The goal is not just to generate a video, but to gradually build a real:
+
+```text
+Idea -> Story -> Script -> Character -> Scene -> Shot -> Video -> Audio -> Subtitle -> Final Movie
+```
+
+AI production pipeline.
+
+### Current Status
+
+The project is still in an early stage, and the features, workflows, and overall system structure are actively being refined.
+
+It is not a finished commercial product. It is an experimental project that is being built and iterated on quickly.
+
+If you are interested in any of the following areas, you are very welcome to follow the project:
+
+- AI short drama
+- AI film
+- AI story generation
+- AI video generation
+- AI content automation
+- AI agents
+- AI workflows
+- multi-model AI pipelines
+- AI video post-production
+- character consistency
+- scene consistency
+
+### Preview
+
+![Login](./docs/images/zhirai-login.png)
+![Dashboard](./docs/images/zhirai-dashboard.png)
+![Settings](./docs/images/zhirai-settings.png)
+
+### Core Workflow
+
+#### 1. Idea & Story Generation
+
+The user starts with a simple topic, story idea, or basic setting. AI then generates:
+
+- story concept
+- story background
+- major conflict
+- story outline
+- development direction
+- main characters
+
+The user can review and confirm the outline before creating a formal project.
+
+#### 2. Project Creation
+
+After the outline is confirmed, the system creates a dedicated project and manages the whole production flow in one place:
+
+```text
+Project
+├── Story
+├── Script
+├── Characters
+├── Locations
+├── Scenes
+├── Shots
+├── Images
+├── Videos
+├── Audio
+├── Subtitles
+└── Final Render
+```
+
+#### 3. Script Generation
+
+Based on the confirmed story setup, the system expands into a fuller script structure, including:
+
+- plot structure
+- scenes
+- character dialogue
+- action descriptions
+- shot information
+- emotion and pacing cues
+
+#### 4. Character & Scene Design
+
+The system generates character definitions and scene definitions from the script, then gradually extends into character visuals, scene visuals, and stronger consistency control.
+
+#### 5. Storyboard & Shot Planning
+
+The system breaks scripts into shots, planning shot type, timing, movement, actions, camera perspective, and scene context, so video generation becomes more structured than a single prompt flow.
+
+#### 6. Video, Audio, Subtitle & Final Composition
+
+Later stages focus on video generation, audio generation, subtitle generation, composition, and enhancement, with the goal of producing a complete final piece.
+
+### What This Repository Is
+
+Right now, this repository is best understood as:
+
+- a public home page for the project
+- a development log in progress
+- a community entry point for ideas, testing, issues, and pull requests
+
+The key message is not "everything is finished".
+
+It is this:
+
+> This is a serious long-term AI project built by an individual developer who is actively working on it, refining it, and welcoming community participation.
+
+### Community Preview
+
+If you want to participate, you are welcome to help in any of the following ways:
+
+- report bugs
+- suggest features
+- share workflow ideas
+- discuss architecture
+- discuss model integration
+- suggest UI / UX improvements
+- submit pull requests
+
+Even if you do not contribute code directly, your feedback, testing, and ideas still matter.
+
+### Development Philosophy
+
+This project explores a new way of thinking about AI-assisted content creation:
+
+> AI is not just a generation tool. It is a collaborative partner in the full content production process.
+
+The user provides:
+
+```text
+Idea
+Creativity
+Direction
+Decision
+```
+
+AI helps with:
+
+```text
+Planning
+Writing
+Generation
+Automation
+Production
+```
+
+The end goal is complete content creation through human-AI collaboration.
+
+### Roadmap
+
+For a more detailed development plan, see [ROADMAP.md](ROADMAP.md).
+
+### Contributing
+
+If you would like to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### License
+
+This repository is currently released as a non-commercial community preview.
+
+Please read the following before using, modifying, or redistributing any public content:
+
+- [LICENSE](LICENSE)
+- [NOTICE.md](NOTICE.md)
+
+### About ZHIRAI
+
+`ZHIRAI` is a personal technology brand focused on AI, software development, and intelligent content creation.
+
+`AI Short Drama Studio` is one of the ongoing experimental projects under the `ZHIRAI` brand.
+
+### Support the Project
+
+If you think this project is valuable, you are welcome to:
+
+- star the repository
+- watch the project
+- open issues
+- share ideas
+- join discussions
+- contribute code
+
+Every star, issue, and piece of feedback helps move the project forward.
