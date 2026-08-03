@@ -91,9 +91,8 @@ AI 内容生产 Pipeline。
 
 ### 项目预览
 
-![登录页](./docs/images/zhirai-login-preview.svg)
-![控制台](./docs/images/zhirai-dashboard-preview.svg)
-![设置页](./docs/images/zhirai-settings-preview.svg)
+![控制台运行中](./docs/images/zhirai-console-running.png)
+![写大纲中](./docs/images/zhirai-outline-writing.png)
 
 ### 核心流程
 
@@ -322,9 +321,8 @@ If you are interested in any of the following areas, you are very welcome to fol
 
 ### Preview
 
-![Login](./docs/images/zhirai-login-preview.svg)
-![Dashboard](./docs/images/zhirai-dashboard-preview.svg)
-![Settings](./docs/images/zhirai-settings-preview.svg)
+![Console Running](./docs/images/zhirai-console-running.png)
+![Outline Writing](./docs/images/zhirai-outline-writing.png)
 
 ### Core Workflow
 
