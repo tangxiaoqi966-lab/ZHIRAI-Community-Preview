@@ -1,4 +1,6 @@
-# Contributing to ZHIRAI
+# Contributing to AI Short Drama Studio
+
+by `ZHIRAI`
 
 感谢你关注 `ZHIRAI`。
 

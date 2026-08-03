@@ -2,15 +2,19 @@
   <img src="./icons.svg" alt="ZHIRAI Logo" width="120" />
 </p>
 
-# ZHIRAI
+# AI Short Drama Studio
 
-ZHIRAI 是一个面向 AI 短剧生产的创作控制台，目标是把“主题 -> 大纲 -> 项目 -> 剧本 -> 角色 -> 视频 -> 配音 -> 字幕 -> 合成”整条流程串成一个可执行的工作流。
+### by ZHIRAI
 
-ZHIRAI is a creative control console for AI short-drama production. It is designed to turn the full path from "topic -> outline -> project -> script -> character -> video -> voice -> subtitle -> final composition" into an executable workflow.
+Repository: `ZHIRAI-Community-Preview`
+
+AI Short Drama Studio 是一个面向 AI 短剧生产的创作控制台，目标是把“主题 -> 大纲 -> 项目 -> 剧本 -> 角色 -> 视频 -> 配音 -> 字幕 -> 合成”整条流程串成一个可执行的工作流。
+
+AI Short Drama Studio is a creative control console for AI short-drama production. It is designed to turn the full path from "topic -> outline -> project -> script -> character -> video -> voice -> subtitle -> final composition" into an executable workflow.
 
 当前仓库定位为：
 
-This repository is positioned as:
+This repository is positioned as a public-facing preview under the `ZHIRAI` brand:
 
 - `Community Preview`
 - `Early Development / WIP`
@@ -19,6 +23,16 @@ This repository is positioned as:
 这不是完整商业版。部分核心流程、关键 Prompt、商业化能力、私有调度逻辑和敏感部署细节仍保留在本地，不在公开范围内。
 
 This is not the full commercial edition. Some core workflows, key prompts, commercial capabilities, private orchestration logic, and sensitive deployment details are intentionally kept local and are not part of the public scope.
+
+## 项目定位 / Project Positioning
+
+- 项目名称：`AI Short Drama Studio`
+- 品牌名称：`ZHIRAI`
+- 仓库名称：`ZHIRAI-Community-Preview`
+
+- Project title: `AI Short Drama Studio`
+- Brand: `ZHIRAI`
+- Repository name: `ZHIRAI-Community-Preview`
 
 ## 当前展示 / Preview
 
@@ -153,9 +167,9 @@ If you are interested in any of the directions below, you are very welcome to sh
 - 提示词工程与 Agent 设计
 - 性能优化、稳定性修复、体验改进
 
-无论你是开发者、设计师、内容创作者，还是对 AI 工作流感兴趣的朋友，都欢迎参与这个项目的公开部分建设。
+无论你是开发者、设计师、内容创作者，还是对 AI 工作流感兴趣的朋友，都欢迎参与 `AI Short Drama Studio` 公开部分的建设。
 
-Whether you are a developer, designer, content creator, or simply interested in AI workflows, you are welcome to contribute to the public-facing part of this project.
+Whether you are a developer, designer, content creator, or simply interested in AI workflows, you are welcome to contribute to the public-facing part of AI Short Drama Studio.
 
 哪怕只是一个小建议、一个交互想法、一个模型适配经验，或者一条 Bug 反馈，对 `ZHIRAI` 都很有价值。
 

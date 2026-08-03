@@ -1,4 +1,6 @@
-# ZHIRAI Roadmap
+# AI Short Drama Studio Roadmap
+
+by `ZHIRAI`
 
 ## 当前阶段 / Current Stage
 

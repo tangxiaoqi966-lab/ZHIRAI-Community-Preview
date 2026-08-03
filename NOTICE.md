@@ -1,8 +1,10 @@
-# ZHIRAI Public Scope Notice
+# AI Short Drama Studio Public Scope Notice
 
-本仓库是 `ZHIRAI` 的公开展示版，不是完整版本。
+by `ZHIRAI`
 
-This repository is the public preview edition of `ZHIRAI`, not the full internal version.
+本仓库是 `AI Short Drama Studio` 在 `ZHIRAI` 品牌下的公开展示版，不是完整版本。
+
+This repository is the public preview edition of `AI Short Drama Studio` under the `ZHIRAI` brand, not the full internal version.
 
 ## 公开目的 / Public Purpose
 
