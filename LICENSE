@@ -1,0 +1,52 @@
+ZHIRAI Public Repository License Notice
+Copyright (c) ZHIRAI. All rights reserved unless expressly stated below.
+
+This repository uses layered licensing for different classes of content.
+
+1. Code
+   The publicly released source code in this repository is made available
+   for non-commercial use, study, testing, modification, and bug fixing.
+
+   Intended license basis:
+   PolyForm Noncommercial 1.0.0
+   https://polyformproject.org/licenses/noncommercial/1.0.0/
+
+   Commercial use is not granted.
+
+2. Documentation, screenshots, diagrams, and showcase materials
+   Public documentation and showcase assets in this repository are intended
+   to be shared under a non-commercial attribution/share-alike style rule.
+
+   Intended license basis:
+   Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+   https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+   Commercial use is not granted.
+
+3. Reserved Rights
+   The following are not granted to the public by this repository:
+
+   - any commercial right
+   - trademark rights in the name "ZHIRAI"
+   - rights to any unpublished workflow, private deployment details,
+     private prompts, commercial modules, or internal orchestration logic
+   - rights to any non-public assets not included in this repository
+
+4. Prohibited Uses
+   You may not, without prior written permission from ZHIRAI:
+
+   - use this repository or derivative works for commercial purposes
+   - sell, resell, sublicense, host for a fee, or provide paid deployment
+   - use the ZHIRAI name, brand, or visual identity to imply endorsement
+   - claim rights over unpublished or withheld parts of the project
+
+5. Third-Party Components
+   Third-party libraries, frameworks, and dependencies remain under their
+   own respective licenses. This notice does not replace those licenses.
+
+6. Clarification
+   This repository is a community preview / early development release.
+   It is not the full commercial or full internal version of the project.
+
+For additional restrictions, public-scope boundaries, and branding notices,
+see NOTICE.md.
